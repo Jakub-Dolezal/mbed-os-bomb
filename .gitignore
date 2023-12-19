@@ -1,0 +1,14 @@
+.build
+.mbed
+projectfiles
+*.py*
+mbed-os
+BUILD
+
+compile_commands.json
+.clangd
+.cache
+BSP_DISCO_F469NI
+LCD_DISCO_F469NI
+TS_DISCO_F469NI
+F469_GUI
