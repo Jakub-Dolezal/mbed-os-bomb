@@ -38,6 +38,7 @@ void init(){
         lcd.Clear(LCD_COLOR_DARKRED);
         lcd.DisplayStringAt(0, 0, (uint8_t *)"FAILED TO INITIALISE", LEFT_MODE);
     }
+    lcd.Clear(LCD_COLOR_BLACK);
 }
 
 void exit(){
